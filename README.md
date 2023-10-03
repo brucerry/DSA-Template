@@ -5,9 +5,9 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 - Kadane's algorithm
 
 ### Strings
-- KMP - Knuth–Morris–Pratt algorithm
-- String Hashing - Rabin-Karp algorithm
-- Z Function - Z algorithm
+- KMP - *Knuth–Morris–Pratt algorithm*
+- String Hashing - *Rabin-Karp algorithm*
+- Z Function
 
 ### Maths
 
