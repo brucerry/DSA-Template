@@ -2,10 +2,12 @@
 Collecting code templates of classic Data Structures &amp; Algorithms - DSA solutions. Aims for various programming languages.
 
 ### Arrays
-- Kadane
+- Kadane's algorithm
 
 ### Strings
-- KMP
+- KMP - Knuth–Morris–Pratt algorithm
+- String Hashing - Rabin-Karp algorithm
+- Z Function - Z algorithm
 
 ### Maths
 
