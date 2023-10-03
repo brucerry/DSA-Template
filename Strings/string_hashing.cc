@@ -45,14 +45,16 @@ struct Hash {
         array<long long, NUM_MOD> res;
         for (int i = 0; i < NUM_MOD; i++) {
             res[i] = (H[i][r + 1] - H[i][l] * P[i][r + 1 - l]) % MODS[i];
-            if (res[i] < 0) res[i] += MODS[i];
+            if (res[i] < 0)
+                res[i] += MODS[i];
         }
         return res;
     }
 };
 
 int count_occurs(string s, string pattern) {
-    int n = s.size(), m = pattern.size();
+    int n = s.size();
+    int m = pattern.size();
     Hash hs(s), ht(pattern);
     int res = 0;
     for (int i = 0, j = m - 1; j < n; i++, j++) {
