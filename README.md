@@ -10,6 +10,7 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 - [Z Function](https://github.com/brucerry/DSA-Template/blob/main/Strings/z_function.cc)
 
 ### Maths
+- [Pow(x, n)](https://github.com/brucerry/DSA-Template/blob/main/Maths/pow_x_n.cc)
 
 ### Linked List
 
