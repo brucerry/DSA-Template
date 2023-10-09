@@ -2,12 +2,12 @@
 Collecting code templates of classic Data Structures &amp; Algorithms - DSA solutions. Aims for various programming languages.
 
 ### Arrays
-- Kadane's algorithm
+- [Kadane's algorithm](https://github.com/brucerry/DSA-Template/blob/main/Arrays/kadane.cc)
 
 ### Strings
-- KMP - *Knuth–Morris–Pratt algorithm*
-- String Hashing - *Rabin-Karp algorithm*
-- Z Function
+- [KMP](https://github.com/brucerry/DSA-Template/blob/main/Strings/kmp.cc) - *Knuth–Morris–Pratt algorithm*
+- [String Hashing](https://github.com/brucerry/DSA-Template/blob/main/Strings/string_hashing.cc) - *Rabin-Karp algorithm*
+- [Z Function](https://github.com/brucerry/DSA-Template/blob/main/Strings/z_function.cc)
 
 ### Maths
 
