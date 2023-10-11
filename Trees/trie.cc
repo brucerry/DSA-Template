@@ -33,7 +33,7 @@ struct Trie {
         return cur;
     }
 
-    bool search_(string word) {
+    bool search(string word) {
         Trie* res = search_prefix(word);
         return res and res->is_end;
     }
