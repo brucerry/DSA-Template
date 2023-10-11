@@ -17,3 +17,4 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 ### Graphs
 
 ### Trees
+- [Trie](https://github.com/brucerry/DSA-Template/blob/main/Trees/trie.cc)
