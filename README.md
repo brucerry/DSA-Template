@@ -11,6 +11,7 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 
 ### Maths
 - [Pow(x, n)](https://github.com/brucerry/DSA-Template/blob/main/Maths/pow_x_n.cc)
+- [Prime Sieve](https://github.com/brucerry/DSA-Template/blob/main/Maths/prime_sieve.cc)
 
 ### Linked List
 
