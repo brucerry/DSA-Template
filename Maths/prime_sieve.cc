@@ -9,6 +9,7 @@ using namespace std;
 
 vector<int> build_sieve(int n = LARGEST_NUMBER) {
     vector<int> isprime (n + 1, true);
+    isprime[0] = isprime[1] = false;
     for (int f = 2; f * f <= n; f++) {
         if (isprime[f]) {
             for (int x = f * f; x <= n; x += f) {
