@@ -14,7 +14,7 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 - [Prime Sieve](https://github.com/brucerry/DSA-Template/blob/main/Maths/prime_sieve.cc)
 
 ### Linked List
-- [LRU](https://github.com/brucerry/DSA-Template/blob/main/Linked List/lru.cc)
+- [LRU](https://github.com/brucerry/DSA-Template/blob/main/Linked%20List/lru.cc)
 
 ### Graphs
 - [Union Find](https://github.com/brucerry/DSA-Template/blob/main/Graphs/union_find.cc)
