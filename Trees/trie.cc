@@ -29,6 +29,7 @@ struct Trie {
         for (char c : prefix) {
             if (!cur->children[c - 'a'])
                 return nullptr;
+            cur = cur->children[c - 'a'];
         }
         return cur;
     }
