@@ -16,6 +16,7 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 ### Linked List
 
 ### Graphs
+- [Union Find](https://github.com/brucerry/DSA-Template/blob/main/Graphs/union_find.cc)
 
 ### Trees
 - [Trie](https://github.com/brucerry/DSA-Template/blob/main/Trees/trie.cc)
