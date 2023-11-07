@@ -21,3 +21,4 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 
 ### Trees
 - [Trie](https://github.com/brucerry/DSA-Template/blob/main/Trees/trie.cc)
+- [Fenwick Sum](https://github.com/brucerry/DSA-Template/blob/main/Trees/fenwick_sum.cc)
