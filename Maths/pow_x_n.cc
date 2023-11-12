@@ -16,7 +16,7 @@ double solve(double x, int n) {
     return n & 1 ? res * x : res;
 }
 
-double myPow(double x, int n) {
+double pow(double x, int n) {
     double res = solve(x, abs(n));
     return n < 0 ? 1 / res : res;
 }
