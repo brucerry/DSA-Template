@@ -14,24 +14,7 @@ struct Node {
     Node(int key, int value, Node* left, Node* right) : key(key), value(value), left(left), right(right) {}
 };
 
-class LRUCache {
-public:
-    int capacity;
-    unordered_map<int, Node*> cache;
-    Node* LRU, *MRU;
-
-    void insert(Node* node) {
-        node->left = MRU->left;
-        node->right = MRU;
-        node->left->right = MRU->left = node;
-    }
-
-    void remove(Node* node) {
-        node->left->right = node->right;
-        node->right->left = node->left;
-        node->left = node->right = nullptr;
-    }
-
+struct LRUCache {
     LRUCache(int capacity) {
         this->capacity = capacity;
         LRU = new Node(0, 0, nullptr, MRU);
@@ -62,5 +45,22 @@ public:
             cache.erase(LRU->right->key);
             remove(LRU->right);
         }
+    }
+
+private:
+    int capacity;
+    unordered_map<int, Node*> cache;
+    Node* LRU, *MRU;
+
+    void insert(Node* node) {
+        node->left = MRU->left;
+        node->right = MRU;
+        node->left->right = MRU->left = node;
+    }
+
+    void remove(Node* node) {
+        node->left->right = node->right;
+        node->right->left = node->left;
+        node->left = node->right = nullptr;
     }
 };
