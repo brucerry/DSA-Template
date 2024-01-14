@@ -1,6 +1,6 @@
 /*
     KMP - Knuth–Morris–Pratt algorithm
-    Implement strstr(a, b): return the first match index where b is a substring of a
+    Implement strstr(a, b): return the first index where 'b' is a substring of 'a' to start at
 */
 
 #include <bits/stdc++.h>
