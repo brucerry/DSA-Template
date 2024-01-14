@@ -6,7 +6,7 @@ Collecting code templates of classic Data Structures &amp; Algorithms - DSA solu
 
 ### Strings
 - [KMP](https://github.com/brucerry/DSA-Template/blob/main/Strings/kmp.cc) - *Knuth–Morris–Pratt algorithm*
-- [KMP](https://github.com/brucerry/DSA-Template/blob/main/Strings/kmp_advanced.cc) - *Knuth–Morris–Pratt algorithm*
+- [KMP advanced](https://github.com/brucerry/DSA-Template/blob/main/Strings/kmp_advanced.cc) - *Knuth–Morris–Pratt algorithm*
 - [String Hashing](https://github.com/brucerry/DSA-Template/blob/main/Strings/string_hashing.cc) - *Rabin-Karp algorithm*
 - [Z Function](https://github.com/brucerry/DSA-Template/blob/main/Strings/z_function.cc)
 
