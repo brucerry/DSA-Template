@@ -6,16 +6,12 @@
 using namespace std;
 
 struct UnionFind {
-    int groups;
+    int group;
     vector<int> parent;
     vector<int> rank;
 
-    UnionFind(int n) {
-        groups = n;
-        for (int i = 0; i < n; i++) {
-            parent.emplace_back(i);
-        }
-        rank.resize(n, 1);
+    UnionFind(int n) : group (n), parent (n), rank (n, 1) {
+        iota(parent.begin(), parent.end(), 0);
     }
 
     bool unions(int node1, int node2) {
@@ -31,7 +27,7 @@ struct UnionFind {
             rank[par2] += rank[par1];
             parent[par1] = par2;
         }
-        groups--;
+        group--;
         return true;
     }
 
