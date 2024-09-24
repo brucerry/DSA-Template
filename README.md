@@ -1,5 +1,5 @@
 # DSA-Template
-Collecting code templates of classic Data Structures &amp; Algorithms - DSA solutions.
+Collecting code templates of classic Data Structures &amp; Algorithms solutions.
 
 ### Arrays
 - [Kadane's algorithm](https://github.com/brucerry/DSA-Template/blob/main/Arrays/kadane.cc)
