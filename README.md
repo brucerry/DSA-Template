@@ -25,3 +25,4 @@ Collecting code templates of classic Data Structures &amp; Algorithms solutions.
 - [Trie](https://github.com/brucerry/DSA-Template/blob/main/Trees/trie.cc)
 - [Trie Binary](https://github.com/brucerry/DSA-Template/blob/main/Trees/trie_binary.cc)
 - [Fenwick Sum](https://github.com/brucerry/DSA-Template/blob/main/Trees/fenwick_sum.cc)
+- [Diameter of Undirected Tree](https://github.com/brucerry/DSA-Template/blob/main/Trees/diameter_of_undirected_tree.cc)
