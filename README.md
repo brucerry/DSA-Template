@@ -13,6 +13,7 @@ Collecting code templates of classic Data Structures &amp; Algorithms solutions.
 ### Maths
 - [Pow(x, n)](https://github.com/brucerry/DSA-Template/blob/main/Maths/pow_x_n.cc)
 - [Pow(x, n, mod)](https://github.com/brucerry/DSA-Template/blob/main/Maths/pow_x_n_mod.cc)
+- [Pow(x, n, mod) Recursive](https://github.com/brucerry/DSA-Template/blob/main/Maths/pow_x_n_mod_recursive.cc)
 - [Prime Sieve](https://github.com/brucerry/DSA-Template/blob/main/Maths/prime_sieve.cc)
 
 ### Linked List
