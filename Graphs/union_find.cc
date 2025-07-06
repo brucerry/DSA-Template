@@ -8,9 +8,8 @@ using namespace std;
 struct UnionFind {
     int group;
     vector<int> parent;
-    vector<int> rank;
 
-    UnionFind(int n) : group (n), parent (n), rank (n, 1) {
+    UnionFind(int n) : group (n), parent (n) {
         iota(parent.begin(), parent.end(), 0);
     }
 
@@ -19,15 +18,8 @@ struct UnionFind {
         int par2 = find(node2);
         if (par1 == par2)
             return false;
-        if (rank[par1] > rank[par2]) {
-            rank[par1] += rank[par2];
-            parent[par2] = par1;
-        }
-        else {
-            rank[par2] += rank[par1];
-            parent[par1] = par2;
-        }
-        group--;
+        parent[par1] = par2;
+        --group;
         return true;
     }
 
